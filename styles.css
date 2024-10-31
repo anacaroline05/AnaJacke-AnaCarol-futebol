@@ -1,21 +1,21 @@
 body {
-    color:BLACK;
+    color:rgb(0, 0, 0);
     background: yellow;
     margin: 0px;
     font-family: " Actions Bot", sans-serif;
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px rgb(228, 42, 82);
     padding: 20px;
-    font-size: 32px;
-    color: rgb(42, 122, 228);
+    font-size: 30px;
+    color: rgb(228, 178, 42);
 }
 
 section {
-    background: rgb(184, 156, 213);
-    padding-bottom: 80px;
-    padding-top: 80px;
+    background: rgb(156, 213, 168);
+    padding-bottom: 70px;
+    padding-top: 70px;
     display: flex;
     justify-content: center;
 }
