@@ -1,18 +1,19 @@
 body {
-    color:rgba(0, 0, 0, 0.438);
-    background: rgb(255, 153, 0);
+    color:PURPLE;
+    background: YELLOW;
     margin: 0px;
     font-family: " Actions Bot", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
     border-bottom: solid 2px rgb(42, 228, 98);
-    padding: 20px;
+    padding: 22px;
     font-size: 30px;
     color: rgb(113, 42, 228);
 }
 
-.chamada {
+    .chamada {
     background: rgb(213, 156, 180);
     padding-bottom: 70px;
     padding-top: 70px;
@@ -28,21 +29,32 @@ h1 {
     font-size: 30px;
 }
 
-p {
-    font-size: 19px;
-}
-
-img {
-    height: 109px;
+ p {
+font-size: 19px;
 }
 
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    gap: 20px;
+    gap: 10px;
 }
 
 .categoria {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.7;
+    height: 201px;
+}
+   
+.categoria-videos img:hover {
+    opacity: 2.0;
+    border: 3px solid palegoldenrod;
+}
+
+.categoria h2 {
+    color: greenyellow;
 }
