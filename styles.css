@@ -1,19 +1,19 @@
 body {
-    color:rgb(0, 0, 0);
-    background: yellow;
+    color:rgba(0, 0, 0, 0.438);
+    background: rgb(255, 153, 0);
     margin: 0px;
     font-family: " Actions Bot", sans-serif;
 }
 
 header {
-    border-bottom: solid 2px rgb(228, 42, 82);
+    border-bottom: solid 2px rgb(42, 228, 98);
     padding: 20px;
     font-size: 30px;
-    color: rgb(228, 178, 42);
+    color: rgb(113, 42, 228);
 }
 
-section {
-    background: rgb(156, 213, 168);
+.chamada {
+    background: rgb(213, 156, 180);
     padding-bottom: 70px;
     padding-top: 70px;
     display: flex;
@@ -21,13 +21,28 @@ section {
 }
 
 .chamada-texto {
-    margin-right: 5%;
+    margin-right: 6%;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 19px;
+}
+
+img {
+    height: 109px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 30px;
+    padding-right: 30px;
 }
